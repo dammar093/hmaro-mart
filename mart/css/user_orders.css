@@ -1,0 +1,34 @@
+.order h2{
+    text-align: center;
+    color: purple;
+    margin-top: 50px;
+}
+
+.order-container{
+    width: 100%;
+    overflow-x:auto
+
+}
+.order-container table{
+    width: 100%;
+}
+.order-container table tr td,th{
+    font-size: 14px;
+    margin: 10px;
+    border-bottom: 1px solid black;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+    margin: 12px 0;
+    padding: 20px;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 20px;
+  }
+  
+  tr:nth-child(even){background-color: #f2f2f2}

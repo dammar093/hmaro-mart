@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+#header{
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    margin: 0;
+}
+.nav{ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#ececec;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+.logo{
+    margin-left: 100px;
+}
+.links ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.links ul li{
+    list-style: none;
+    margin: 10px;
+    padding: 10px;
+}
+.links ul li a{
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
+}
+.links ul li a img{
+    width: 24px;
+}
+.profile{
+    margin-right: 100px;
+}
+#profile{
+    cursor: pointer;
+}
+.profile-details{
+    position: absolute;
+    right: 6px;
+    top: 71px;
+    border: 1px solid red;
+    padding: 20px;
+    background-color: brown;
+    color: white;
+    font-size: 14px;
+    line-height: 21px;
+    transition: 0.5s ease;
+    
+}
+#display{
+    display: none;
+}
+button{
+    margin: 12px auto;
+    background-color: blue;
+    color: white;
+    outline: none;
+    border: none;
+    padding: 10px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: darkblue;
+}
+
+/*css for dashboard*/
+
+#dashboard{
+    margin: 12px 10px;
+}
+#dashboard h2{
+    text-align: center;
+    color: purple;
+    font-weight: bold;
+}
+
+.dashboard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.about-dashboard{
+    width: 35%;
+    border: 1px solid black;
+    padding: 20px;
+    text-align: center;
+    margin: 12px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+/*css for prodcts*/
+#products{
+    margin: 12px 10px;
+}
+#products h2{
+    text-align: center;
+    color: purple;
+}
+.products{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.product-details{
+    border: 1px solid black;
+    text-align: center;
+    margin: 5px;
+    padding: 20px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.product-details a img{
+    width: 10px;
+    height: 10px;
+}
+.product-details a{
+  text-decoration: none;
+  background-color: blue;
+  color:white;
+  padding:9px 15px;
+  outline:none;
+  border:none;
+  font-size: 14px;
+  border-radius:6px;
+}
+.product-details a:hover{
+    background-color:darkblue;
+}
+.image{
+    width: 200px;
+    height: 200px;
+    padding: 12px;
+}
+.product-details:hover{
+    transform: scale(1.03);
+}
+
+.product-btn:hover{
+    background-color: darkblue;
+}
+.product-details h4{
+    font-size: 14px;
+}
+.product-details p{
+    padding: 12px;
+}
+
+/* css for footer*/
+footer{
+    display: flex;
+    background-color: #020224;
+    padding: 20px;
+    color: white;
+    justify-content: space-between;
+}
+.about-us{
+    width: 40%;
+}
+.about-us p{
+    font-size: 14px;
+}
+.contact-us{
+    width: 40%;
+}
+.img{
+    width: 16px;
+}
+.contact-us p{
+    font-size: 14px;
+}
+.quick-links{
+    width: 20%;
+}
+.quick-links p a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+/*css for update */
+.update-container{
+    width: 400px;
+    margin: 0 auto;
+}
+/*css for resposive*/
+@media (max-width:702px) {
+    .logo{
+        margin: 5px;
+    }
+    .logo img{
+        width: 60px;
+    }
+    .profile{
+        margin:5px;
+
+    }
+    .profile img{
+        width: 25px;
+    }
+}
+
+@media (max-width:620px) {
+    .links ul li a img{
+        width: 14px;
+    }
+}
+
+@media (max-width:570px) {
+    .links ul li a img{
+        width: 15px;
+    }
+    .links{
+        font-size: 14px;
+    }
+}
+@media (max-width:510px) {
+    .links ul li a{
+        font-size: 8px;
+    }
+    .links ul li{
+        margin: 0 2px;
+    }
+    footer h2{
+        font-size: 16px;
+    }
+    .about-us p {
+        font-size: 10px;
+    }
+    .about-us h4{
+    font-size: 16px;
+    }
+    .contact-us p {
+        font-size: 10px;
+    }
+    .contact-us h4{
+        font-size: 16px;
+        }
+  .quick-links h4{
+       font-size: 16px;      
+    }
+    .quick-links p a {
+        text-decoration: none;
+        color: white;
+        font-size: 10px;
+    }
+}
+@media (max-width:443px){
+    .links ul li a span{
+        display: none;
+    }
+}

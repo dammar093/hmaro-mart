@@ -1,0 +1,71 @@
+.order h2{
+    text-align: center;
+    color: purple;
+}
+
+.order-container{
+    width: 100%;
+    overflow-x:auto
+
+}
+.order-container table{
+    width: 100%;
+}
+.order-container table tr td,th{
+    font-size: 14px;
+    margin: 10px;
+    border-bottom: 1px solid black;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+    margin: 12px 0;
+    padding: 20px;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 20px;
+  }
+  
+  tr:nth-child(even){background-color: #f2f2f2}
+
+.delete{
+    padding: 12px 18px;
+    background-color:red;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 12px;
+}
+.delete:hover{
+    background-color: darkred;
+}
+.update-order-btn{
+    outline: none;
+    width: 80px;
+    padding: 10px 12px;
+    background-color:blue;
+    color: white;
+    border: none;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.update-btn{
+    outline: none;
+    width: 80px;
+    padding: 10px 12px;
+    background-color:blue;
+    color: white;
+    border: none;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+} 
+.update-btn :hover{
+    background-color: darkblue;
+}

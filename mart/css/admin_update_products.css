@@ -1,0 +1,65 @@
+
+
+/*css for update */
+.update-container {
+ min-height: 100vh;
+ background-color: rgba(0,0,0,0.7);
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ padding: 2rem;
+ overflow-y: scroll;
+ position: fixed;
+ top: 0;
+ left: 0;
+ width: 100%;
+ z-index: 100;
+}
+.update-container form{
+  width: 30rem;
+  padding: 2rem;
+  text-align: center;
+  border-radius: 6px;
+  background-color: white;
+  height: 30rem;
+}
+.update-container h2{
+  text-align: center;
+  color: purple;
+}
+.update-img{
+ width:200px;
+ height:200px;
+    
+}
+.form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 2px;
+}
+.box{
+    width: 200px;
+    padding: 10px;
+    margin: 7px 4px;
+    outline: 1px solid black;
+    border: none;
+    border-radius: 5px;
+
+}
+.price{
+   margin-left:8px;
+}
+.btn{
+background-color: blue;
+color:white;
+padding:10px 15px;
+outline:none;
+border:none;
+cursor: pointer;
+border-radius:6px;
+}
+.btn:hover{
+background-color: darkblue;
+}
+

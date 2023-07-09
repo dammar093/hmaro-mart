@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.payment{
+    width: 400px;
+    margin: 10px auto;
+    padding: 20px;
+}
+.payment h2{
+    text-align: center;
+    color: purple;
+}
+.payment-details .pay{
+   width: 300px;
+   padding: 10px 20px ;
+   margin: 8px 4px;
+   outline: 1px solid black;
+   border: none;
+   border-radius: 6px;
+}
+.pay-now{
+    background-color: blue;
+    cursor: pointer;
+    color: white;
+}
+.pay-now:hover{
+    background-color: darkblue;
+}

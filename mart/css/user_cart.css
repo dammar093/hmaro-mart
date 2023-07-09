@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.cart h2{
+    text-align: center;
+    color: purple;
+}
+.added-cart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.added-cart  table tr td{
+    padding: 10px;
+    margin: 10px;
+    border-bottom: 1px solid black;
+    font-size: 16px;
+    font-weight: bold;
+}
+.added-cart  table tr td img{
+    width: 80px;
+    height: 80px;
+}
+.added-cart table tr td input{
+    text-align: center;
+}
+ 
+.quantity{
+    width: 40px;
+    outline: 1px solid black;
+    border-radius: 2px;
+    border: none;
+}
+.btn{
+    outline: none;
+    width: 80px;
+    padding: 10px 12px;
+    background-color:blue;
+    color: white;
+    border: none;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color:darkblue;
+}
+.cancel{
+    padding: 10px 12px;
+    background-color:red;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 12px;
+}
+.added-cart  table tr td a:hover{
+    background-color: darkred;
+}
+
+.check-out{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.order-btn{
+    font-size: 12px;
+    background-color: blue;
+    color: white;
+    padding: 10px 12px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.order-btn:hover{
+    background-color: darkblue;
+}
+.disabled{
+    pointer-events: none;
+    opacity: 0.5;
+}
+
+@media (max-width:582px){
+    .added-cart form table td{
+        font-size: 10px;
+    }
+    .added-cart form table tr td{
+        padding: 2px;
+        margin: 0px;
+    }
+    .btn{
+        width: 50px;
+        font-size: 10px;
+    }
+    .added-cart form table tr td{
+        font-size: 10px;
+    }
+
+}
+
