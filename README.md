@@ -9,4 +9,4 @@ Step to setup the project:
 7: goto hmaro-mart databse 
 8: go to import 
 9: go to choose file and select hamro-mart.sql file which is given to the project folder
-10: goto chrome or any browser and search localthost/hamromart
+10: goto chrome or any browser and search localthost/mart
